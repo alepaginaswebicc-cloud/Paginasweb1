@@ -1,8 +1,4 @@
-<html>
-  <h2> hola mundo</h2>
-  <h1>hola2
-  </h1>
----------------------
+<!DOCTYPE html>
 <html>
 <head>
 <style>
@@ -59,3 +55,5 @@ table, td, th {
 
 </body>
 </html>
+
+
