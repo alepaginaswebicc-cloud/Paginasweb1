@@ -2,61 +2,59 @@
 <html>
 <head>
 <style>
-table, td, th {
-  border: 1px solid black;
+table {
+  border-collapse: collapse;
+  width: 100%;
 }
 
-#table1 {
-  border-collapse: separate;
-  border-spacing: 15px;
+th, td {
+  text-align: left;
+  padding: 8px;
 }
 
-#table2 {
-  border-collapse: separate;
-  border-spacing: 15px 50px;
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #04AA6D;
+  color: white;
 }
 </style>
 </head>
 <body>
 
-<h2>border-spacing: 15px:</h2>
-<p>When using "border-collapse: separate", the border-spacing property can be used to set the space between the cells:</p>
-<table id="table1">
-  <tr>
-    <th>Firstname</th>
-    <th>Lastname</th>
-  </tr>
-  <tr>
-    <td>Peter</td>
-    <td>Griffin</td>
-  </tr>
-  <tr>
-    <td>Lois</td>
-    <td>Griffin</td>
-  </tr>
-</table>
+<h2>Colored Table Header</h2>
 
-<h2>border-spacing: 15px 50px:</h2>
-<p>Using two values (the first sets the horizontal spacing and the second sets the vertical spacing):</p>
-<table id="table2">
+<table>
   <tr>
     <th>Firstname</th>
     <th>Lastname</th>
+    <th>Savings</th>
   </tr>
   <tr>
     <td>Peter</td>
     <td>Griffin</td>
+    <td>$100</td>
   </tr>
   <tr>
     <td>Lois</td>
     <td>Griffin</td>
+    <td>$150</td>
   </tr>
+  <tr>
+    <td>Joe</td>
+    <td>Swanson</td>
+    <td>$300</td>
+  </tr>
+  <tr>
+    <td>Cleveland</td>
+    <td>Brown</td>
+    <td>$250</td>
+</tr>
 </table>
 
 </body>
 </html>
-#table 3   {
-  border-collapse: separate;
-  border-spacing: 15px 50px;
+
+
 
 
