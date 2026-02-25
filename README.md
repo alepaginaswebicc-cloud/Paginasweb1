@@ -55,5 +55,8 @@ table, td, th {
 
 </body>
 </html>
+#table 3   {
+  border-collapse: separate;
+  border-spacing: 15px 50px;
 
 
