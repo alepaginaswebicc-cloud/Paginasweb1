@@ -1,16 +1,38 @@
-
-   <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
+  <title>Tabla de Animales</title>
+
   <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff0f5;
+      text-align: center;
+    }
+
+    h1 {
+      color: #ff69b4;
+    }
+
+    h2 {
+      color: #d63384;
+    }
+
+    p {
+      width: 60%;
+      margin: auto;
+      margin-bottom: 20px;
+    }
+
     table {
-      width: 100%;
+      width: 90%;
+      margin: auto;
       border-collapse: collapse;
-      background-color: #ffe4ec; /* rosa claro */
+      background-color: #ffe4ec;
     }
 
     th {
-      background-color: #ff69b4; /* rosa fuerte */
+      background-color: #ff69b4;
       color: white;
       padding: 10px;
     }
@@ -22,10 +44,13 @@
     }
 
     tr:nth-child(even) {
-      background-color: #ffd6e7; /* rosa alterno */
+      background-color: #ffd6e7;
     }
 
     img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
       border-radius: 10px;
     }
   </style>
@@ -33,46 +58,65 @@
 
 <body>
 
-<table>
-  <tr>
-    <th>ANIMALES</th>
-    <th>DESCRIPCIÓN</th>
-    <th>IMAGEN</th>
-  </tr>
+  <h1>Tabla de Animales</h1>
+  <h2>Alejandra Albino Escobar</h2>
 
-  <tr>
-    <td>PANDA</td>
-    <td>El panda es un oso conocido por su color blanco y negro.</td>
-    <td><img src="panda.jpg" width="150"></td>
-  </tr>
+  <p>
+    Esta tabla muestra información básica sobre algunos animales, incluyendo su descripción
+    y una imagen representativa. Es una forma visual y organizada de conocer diferentes especies.
+  </p>
 
-  <tr>
-    <td>BUHO</td>
-    <td>El búho es un ave nocturna con gran visión.</td>
-    <td><img src="buho.jpg" width="150"></td>
-  </tr>
+  <table>
+    <tr>
+      <th>ANIMALES</th>
+      <th>DESCRIPCIÓN</th>
+      <th>IMAGEN</th>
+    </tr>
 
-  <tr>
-    <td>RATA</td>
-    <td>La rata es un roedor muy inteligente.</td>
-    <td><img src="rata.jpg" width="150"></td>
-  </tr>
+    <tr>
+      <td>PANDA</td>
+      <td>El panda es un oso conocido por su pelaje blanco y negro y su alimentación basada en bambú.</td>
+      <td>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Grosser_Panda.JPG">
+      </td>
+    </tr>
 
-  <tr>
-    <td>SERPIENTE</td>
-    <td>Las serpientes son reptiles sin patas.</td>
-    <td><img src="serpiente.jpg" width="150"></td>
-  </tr>
+    <tr>
+      <td>BUHO</td>
+      <td>El búho es un ave nocturna con gran visión y habilidades de caza en la oscuridad.</td>
+      <td>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Strix_aluco_1.jpg">
+      </td>
+    </tr>
 
-  <tr>
-    <td>KOALA</td>
-    <td>El koala vive en Australia y come eucalipto.</td>
-    <td><img src="koala.jpg" width="150"></td>
-  </tr>
+    <tr>
+      <td>RATA</td>
+      <td>La rata es un roedor muy inteligente y adaptable a distintos entornos.</td>
+      <td>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Rattus_norvegicus_1.jpg">
+      </td>
+    </tr>
 
-</table>
+    <tr>
+      <td>SERPIENTE</td>
+      <td>Las serpientes son reptiles sin patas con cuerpo alargado y gran capacidad de adaptación.</td>
+      <td>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/76/Snake_Red_Bamboo.jpg">
+      </td>
+    </tr>
+
+    <tr>
+      <td>KOALA</td>
+      <td>El koala es un marsupial que vive en Australia y se alimenta principalmente de eucalipto.</td>
+      <td>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/49/Koala_climbing_tree.jpg">
+      </td>
+    </tr>
+
+  </table>
 
 </body>
 </html>
+   
 
-    
+
